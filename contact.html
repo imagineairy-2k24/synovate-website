@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Synovate Business Consulting LLP</title>
+    <title>Contact Us | HALDAR & ASSOCIATES</title>
     
     <!-- Meta tags for SEO -->
-    <meta name="description" content="Contact Synovate Business Consulting LLP for professional business consulting services in Kolkata. Get in touch for company incorporation, GST, taxation, and compliance services.">
-    <meta name="keywords" content="contact synovate, business consulting contact, chartered accountant kolkata, business services contact">
+    <meta name="description" content="Get in touch with HALDAR & ASSOCIATES for expert financial guidance and business services in Kolkata.">
+    <meta name="keywords" content="contact HALDAR & ASSOCIATES, CA firm Kolkata, email chartered accountant, business consulting contact">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
     
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -31,13 +31,16 @@
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo.jpg" alt="Synovate Logo" height="50">
+        <div class="container d-flex align-items-center px-3">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                <img src="assets/images/CA_India_logo.png" alt="CA India Logo" height="50" class="me-2">
+                <span class="brand-text fw-bold text-uppercase">HALDAR & ASSOCIATES</span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="ms-auto">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
@@ -61,19 +64,15 @@
     </nav>
 
     <!-- Page Header -->
-    <section class="page-header bg-light py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h1 class="display-4 fw-bold">Contact Us</h1>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Contact</li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
+    <section class="page-header text-white d-flex align-items-center" style="background-image: url('assets/images/contact-banner.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 250px; position: relative;">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold">Contact Us</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
+                    <li class="breadcrumb-item active text-white" aria-current="page">Contact</li>
+                </ol>
+            </nav>
         </div>
     </section>
 
@@ -119,33 +118,37 @@
                 <div class="col-lg-6" data-aos="fade-right">
                     <div class="contact-form p-4 bg-white rounded shadow">
                         <h2 class="mb-4">Send Us a Message</h2>
-                        <form class="needs-validation" novalidate>
+                        <form action="https://formsubmit.co/sikdersumn@gmail.com" method="POST" class="needs-validation" novalidate>
+                            <input type="hidden" name="_subject" value="New Contact Form Submission from Website">
+                            <input type="hidden" name="_template" value="table">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="thankyou.html">
                             <div class="mb-3">
-                                <input type="text" class="form-control" placeholder="Your Name" required>
+                                <input type="text" class="form-control" name="name" placeholder="Your Name" required>
                                 <div class="invalid-feedback">Please enter your name.</div>
                             </div>
                             <div class="mb-3">
-                                <input type="email" class="form-control" placeholder="Email Address" required>
+                                <input type="email" class="form-control" name="email" placeholder="Email Address" required>
                                 <div class="invalid-feedback">Please enter a valid email address.</div>
                             </div>
                             <div class="mb-3">
-                                <input type="tel" class="form-control" placeholder="Phone Number" required>
+                                <input type="tel" class="form-control" name="phone" placeholder="Phone Number" required>
                                 <div class="invalid-feedback">Please enter your phone number.</div>
                             </div>
                             <div class="mb-3">
-                                <select class="form-select" required>
+                                <select class="form-select" name="service" required>
                                     <option value="">Select Service</option>
-                                    <option value="company-incorporation">Company Incorporation</option>
-                                    <option value="corporate-compliance">Corporate Compliance</option>
-                                    <option value="gst-services">GST Services</option>
-                                    <option value="tax-services">Tax Services</option>
-                                    <option value="business-registration">Business Registration</option>
-                                    <option value="financial-services">Financial Services</option>
+                                    <option value="attestation-assurance">Attestation & Assurance</option>
+                                    <option value="statutory-compliance">Statutory Compliance</option>
+                                    <option value="taxation">Taxation</option>
+                                    <option value="outsourcing">Outsourcing</option>
+                                    <option value="corporate-advisory">Corporate Advisory</option>
+                                    <option value="fema-rbi-compliance">FEMA & RBI Compliance</option>
                                 </select>
                                 <div class="invalid-feedback">Please select a service.</div>
                             </div>
                             <div class="mb-3">
-                                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                                <textarea class="form-control" name="message" rows="5" placeholder="Your Message" required></textarea>
                                 <div class="invalid-feedback">Please enter your message.</div>
                             </div>
                             <button type="submit" class="btn btn-primary">Send Message</button>
@@ -155,7 +158,7 @@
                 <div class="col-lg-6" data-aos="fade-left">
                     <div class="map-container h-100">
                         <!-- Replace src with your actual Google Maps embed code -->
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.1866685657207!2d88.3482!3d22.5726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDM0JzIxLjQiTiA4OMKwMjAnNTMuNSJF!5e0!3m2!1sen!2sin!4v1635835636789!5m2!1sen!2sin" 
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.0297822083776!2d88.3797017!3d22.465515099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02712d16d21c87%3A0x6036757cbfabb6fb!2s4%20Sight%20Mushroom!5e0!3m2!1sen!2sin!4v1747908470660!5m2!1sen!2sin"
                             width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
@@ -201,8 +204,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-4">
-                    <h5>About Us</h5>
-                    <p>Synovate Business Consulting LLP is a professional consulting firm offering comprehensive business solutions.</p>
+                    <img src="assets/images/CA_India_logo.png" alt="CA India Logo" height="35">
+                    <h5 class="mt-2 text-white">HALDAR & ASSOCIATES</h5>
+                    <p class="text-muted small">Chartered Accountants | Estd. 1984</p>
                 </div>
                 <div class="col-md-4 mb-4">
                     <h5>Quick Links</h5>
@@ -225,14 +229,7 @@
             <hr class="my-4">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-0">&copy; 2024 Synovate Business Consulting LLP. All rights reserved.</p>
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <div class="social-links">
-                        <a href="#" class="me-3"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="me-3"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
-                    </div>
+                    <p class="mb-0">&copy; 2025 HALDAR & ASSOCIATES. All rights reserved.</p>
                 </div>
             </div>
         </div>
@@ -241,6 +238,8 @@
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/animations.js"></script>
     <script src="assets/js/image-loader.js"></script>
@@ -264,5 +263,11 @@
             }, false);
         })();
     </script>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919876543210?text=Hi%20HALDAR%20%26%20ASSOCIATES%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services." 
+       class="whatsapp-float" target="_blank" aria-label="Chat with us on WhatsApp">
+       <i class="fab fa-whatsapp"></i>
+    </a>
 </body>
 </html>
