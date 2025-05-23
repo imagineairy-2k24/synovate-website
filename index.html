@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Synovate Business Consulting LLP - Professional Business Consulting Services</title>
+    <title>HALDAR & ASSOCIATES | Chartered Accountants in Kolkata</title>
     
     <!-- Meta tags for SEO -->
-    <meta name="description" content="Synovate Business Consulting LLP is a professional consulting firm offering services in company incorporation, corporate compliances, GST, taxation, and business registration in Kolkata.">
-    <meta name="keywords" content="business consulting, chartered accountant, company incorporation, GST services, corporate compliance, Kolkata">
+    <meta name="description" content="HALDAR & ASSOCIATES offers expert chartered accountancy, business advisory, GST, taxation, and compliance services in Kolkata.">
+    <meta name="keywords" content="chartered accountant kolkata, gst, ca firm, business advisory, tax filing, HALDAR & ASSOCIATES">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
     
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -31,17 +31,20 @@
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo.jpg" alt="Synovate Logo" height="50">
+        <div class="container d-flex align-items-center px-3">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                <img src="assets/images/CA_India_logo.png" alt="CA India Logo" height="50" class="me-2">
+                <span class="brand-text fw-bold text-uppercase">HALDAR & ASSOCIATES</span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="ms-auto">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
@@ -104,34 +107,89 @@
         <div class="container">
             <h2 class="text-center mb-5">Our Services</h2>
             <div class="row g-4">
-                <!-- Service Card 1 -->
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="service-card text-center p-4">
-                        <i class="fas fa-building fa-3x mb-4 text-primary"></i>
-                        <h3>Company Incorporation</h3>
-                        <p>Complete assistance in company registration and setup</p>
+                <!-- Old card layout commented out for fallback -->
+                <!--
+                <div class="col-md-4">
+                    <div class="service-card text-center p-4 bg-white shadow-sm rounded">
+                        <img src="assets/images/services/assurance.jpg" alt="Attestation Service" class="mb-3" height="60">
+                        <h3 class="h5 fw-semibold">Attestation & Assurance Services</h3>
+                        <p class="text-muted small">Reliable audit, assurance, and certification services for financial transparency.</p>
                     </div>
                 </div>
-                <!-- Service Card 2 -->
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="service-card text-center p-4">
-                        <i class="fas fa-balance-scale fa-3x mb-4 text-primary"></i>
-                        <h3>Corporate Compliances</h3>
-                        <p>ROC, FEMA, SEBI, NCLT & Legal Litigations</p>
-                    </div>
+                ... (other cards)
+                -->
+                <!-- New layout as per reference image -->
+                <div class="col-md-4 text-center mb-5" data-aos="fade-up">
+                  <img src="assets/images/services/attestation.jpeg" class="img-fluid mb-3 rounded" alt="Attestation & Assurance Services" style="height:200px;object-fit:cover;width:100%;">
+                  <h5 class="fw-semibold text-primary">Attestation & Assurance Services</h5>
                 </div>
-                <!-- Service Card 3 -->
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                    <div class="service-card text-center p-4">
-                        <i class="fas fa-calculator fa-3x mb-4 text-primary"></i>
-                        <h3>GST Services</h3>
-                        <p>GST Registration, Returns & Compliances</p>
-                    </div>
+                <div class="col-md-4 text-center mb-5" data-aos="fade-up">
+                  <img src="assets/images/services/statutory.jpeg" class="img-fluid mb-3 rounded" alt="Statutory Compliance" style="height:200px;object-fit:cover;width:100%;">
+                  <h5 class="fw-semibold text-primary">Statutory Compliance</h5>
+                </div>
+                <div class="col-md-4 text-center mb-5" data-aos="fade-up">
+                  <img src="assets/images/services/taxation.jpeg" class="img-fluid mb-3 rounded" alt="Taxation" style="height:200px;object-fit:cover;width:100%;">
+                  <h5 class="fw-semibold text-primary">Taxation</h5>
+                </div>
+                <div class="col-md-4 text-center mb-5" data-aos="fade-up">
+                  <img src="assets/images/services/outsourcing.jpeg" class="img-fluid mb-3 rounded" alt="Outsourcing" style="height:200px;object-fit:cover;width:100%;">
+                  <h5 class="fw-semibold text-primary">Outsourcing</h5>
+                </div>
+                <div class="col-md-4 text-center mb-5" data-aos="fade-up">
+                  <img src="assets/images/services/advisory.jpeg" class="img-fluid mb-3 rounded" alt="Corporate Advisory" style="height:200px;object-fit:cover;width:100%;">
+                  <h5 class="fw-semibold text-primary">Corporate Advisory</h5>
+                </div>
+                <div class="col-md-4 text-center mb-5" data-aos="fade-up">
+                  <img src="assets/images/services/fema.jpeg" class="img-fluid mb-3 rounded" alt="FEMA & RBI Compliance" style="height:200px;object-fit:cover;width:100%;">
+                  <h5 class="fw-semibold text-primary">FEMA & RBI Compliance</h5>
                 </div>
             </div>
         </div>
     </section>
+    <section class="industries-section py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">Industries Our Clients Work In</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 justify-content-center">
 
+          <!-- Industry 1 -->
+          <div class="col text-center" data-aos="fade-up">
+            <img src="assets/images/industries/financial.jpeg" alt="Financial" class="img-fluid mb-3 rounded" style="height:220px; width:100%; object-fit:cover; max-width:350px;">
+            <h5 class="fw-semibold text-primary">Financial</h5>
+          </div>
+
+          <!-- Industry 2 -->
+          <div class="col text-center" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/images/industries/manufacturing.jpeg" alt="Manufacturing" class="img-fluid mb-3 rounded" style="height:220px; width:100%; object-fit:cover; max-width:350px;">
+            <h5 class="fw-semibold text-primary">Manufacturing</h5>
+          </div>
+
+          <!-- Industry 3 -->
+          <div class="col text-center" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/images/industries/food.jpeg" alt="Food & Beverages" class="img-fluid mb-3 rounded" style="height:220px; width:100%; object-fit:cover; max-width:350px;">
+            <h5 class="fw-semibold text-primary">Food & Beverages</h5>
+          </div>
+
+          <!-- Industry 4 -->
+          <div class="col text-center" data-aos="fade-up" data-aos-delay="300">
+            <img src="assets/images/industries/healthcare.jpeg" alt="Healthcare" class="img-fluid mb-3 rounded" style="height:220px; width:100%; object-fit:cover; max-width:350px;">
+            <h5 class="fw-semibold text-primary">Healthcare</h5>
+          </div>
+
+          <!-- Industry 5 -->
+          <div class="col text-center" data-aos="fade-up" data-aos-delay="400">
+            <img src="assets/images/industries/it.jpeg" alt="IT Business & Services" class="img-fluid mb-3 rounded" style="height:220px; width:100%; object-fit:cover; max-width:350px;">
+            <h5 class="fw-semibold text-primary">IT Business & Services</h5>
+          </div>
+
+          <!-- Industry 6 -->
+          <div class="col text-center" data-aos="fade-up" data-aos-delay="500">
+            <img src="assets/images/industries/other.jpeg" alt="Other Service sectors" class="img-fluid mb-3 rounded" style="height:220px; width:100%; object-fit:cover; max-width:350px;">
+            <h5 class="fw-semibold text-primary">Other Service sectors</h5>
+          </div>
+
+        </div>
+      </div>
+    </section>
     <!-- Statistics Section -->
     <section class="stats-section py-5 bg-light" data-aos="fade-up">
         <div class="container">
@@ -163,6 +221,57 @@
             </div>
         </div>
     </section>
+    <!-- Testimonials Section -->
+    <section class="testimonials-section py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">What Our Clients Say</h2>
+        <div class="row g-4">
+
+          <!-- Testimonial 1 -->
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="p-4 bg-light rounded h-100">
+              <div class="d-flex align-items-center mb-3">
+                <img src="assets/images/testimonials/user1.jpg" alt="Client" class="rounded-circle me-3" width="50" height="50">
+                <div>
+                  <h6 class="mb-0 fw-semibold">Ravi Kumar</h6>
+                  <small class="text-muted">MD, TechLink</small>
+                </div>
+              </div>
+              <p class="mb-0 fst-italic">“Haldar & Associates helped us streamline our compliance in record time. A professional and reliable team.”</p>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="p-4 bg-light rounded h-100">
+              <div class="d-flex align-items-center mb-3">
+                <img src="assets/images/testimonials/user2.jpg" alt="Client" class="rounded-circle me-3" width="50" height="50">
+                <div>
+                  <h6 class="mb-0 fw-semibold">Sonal Dey</h6>
+                  <small class="text-muted">Founder, CraftyKart</small>
+                </div>
+              </div>
+              <p class="mb-0 fst-italic">“Their guidance on GST and company formation was invaluable for our startup journey.”</p>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="p-4 bg-light rounded h-100">
+              <div class="d-flex align-items-center mb-3">
+                <img src="assets/images/testimonials/user3.jpg" alt="Client" class="rounded-circle me-3" width="50" height="50">
+                <div>
+                  <h6 class="mb-0 fw-semibold">Arvind Mehta</h6>
+                  <small class="text-muted">CEO, FinWave</small>
+                </div>
+              </div>
+              <p class="mb-0 fst-italic">“Extremely knowledgeable team. Their corporate advisory services are top-notch.”</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
 
     <!-- Contact CTA -->
     <section class="cta-section py-5" data-aos="fade-up">
@@ -182,8 +291,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-4">
-                    <h5>About Us</h5>
-                    <p>Synovate Business Consulting LLP is a professional consulting firm offering comprehensive business solutions.</p>
+                    <img src="assets/images/CA_India_logo.png" alt="CA India Logo" height="35">
+                    <h5 class="mt-2 text-white">HALDAR & ASSOCIATES</h5>
+                    <p class="text-muted small">Chartered Accountants | Estd. 1984</p>
                 </div>
                 <div class="col-md-4 mb-4">
                     <h5>Quick Links</h5>
@@ -206,14 +316,7 @@
             <hr class="my-4">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-0">&copy; 2024 Synovate Business Consulting LLP. All rights reserved.</p>
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <div class="social-links">
-                        <a href="#" class="me-3"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="me-3"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
-                    </div>
+                    <p class="mb-0">&copy; 2025 HALDAR & ASSOCIATES. All rights reserved.</p>
                 </div>
             </div>
         </div>
@@ -227,5 +330,11 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/animations.js"></script>
     <script src="assets/js/image-loader.js"></script>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919876543210?text=Hi%20HALDAR%20%26%20ASSOCIATES%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services." 
+       class="whatsapp-float" target="_blank" aria-label="Chat with us on WhatsApp">
+       <i class="fab fa-whatsapp"></i>
+    </a>
 </body>
 </html>
