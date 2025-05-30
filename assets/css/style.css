@@ -1000,3 +1000,67 @@ html {
         margin-right: 1rem;
     }
 }
+
+.testimonial-quote {
+    position: relative;
+    padding: 2rem 1.5rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    font-style: italic;
+}
+
+.testimonial-quote::before,
+.testimonial-quote::after {
+    position: absolute;
+    font-size: 3rem;
+    color: #ccc;
+    opacity: 0.3;
+    font-family: Georgia, serif;
+    line-height: 1;
+}
+
+.testimonial-quote::before {
+    content: "“";
+    top: 10px;
+    left: 15px;
+}
+
+.testimonial-quote::after {
+    content: "”";
+    bottom: 10px;
+    right: 15px;
+}
+
+.team-member-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.team-member-photo:hover {
+    transform: scale(1.03);
+}
+
+.footer-phone span {
+    white-space: nowrap;
+}
+
+@media (max-width: 576px) {
+    .footer-phone span {
+        display: block;
+        margin-bottom: 4px;
+    }
+}
+
+.footer .text-muted {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.5) !important;
+}
